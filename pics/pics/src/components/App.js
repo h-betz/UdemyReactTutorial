@@ -1,5 +1,5 @@
 import React from 'react';
-import unspash from '../api/unsplash';
+import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
@@ -8,7 +8,7 @@ class App extends React.Component {
     state = {images: []};
 
     onSearchSubmit = async (term) => {
-        const response = await unspash.get('/search/photos', {
+        const response = await unsplash.get('/search/photos', {
             params: {
                 query: term
             },
