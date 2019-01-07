@@ -12,14 +12,14 @@ class VideoItem extends React.Component {
     }
 
     render() {
-        const {description, thumbnails} = this.props.video;
+        const {description, thumbnails} = this.props.video.snippet;
         return (
             <div>
                 <a>
                 <img 
                     ref={this.videoRef}
                     alt={description}
-                    src={thumbnails.default}
+                    src={thumbnails.default.url}
                 />
                 </a>
             </div>
