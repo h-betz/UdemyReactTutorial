@@ -1,6 +1,6 @@
 import React from 'react';
 
-class VideoCard extends React.Component {
+class VideoItem extends React.Component {
     
     constructor(props) {
         super(props);
@@ -27,4 +27,4 @@ class VideoCard extends React.Component {
     }
 }
 
-export default VideoCard;
+export default VideoItem;
