@@ -4,6 +4,11 @@
       "title": "test",
       "description": "another test",
       "id": 1
+    },
+    {
+      "title": "Hunters Test",
+      "description": "Another test stream",
+      "id": 2
     }
   ]
 }
