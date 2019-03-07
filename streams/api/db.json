@@ -9,6 +9,12 @@
       "title": "Hunters Test",
       "description": "Another test stream",
       "id": 2
+    },
+    {
+      "title": "Game of Thrones",
+      "description": "Season 8 Episodes",
+      "userId": "113969028892804855027",
+      "id": 3
     }
   ]
 }
